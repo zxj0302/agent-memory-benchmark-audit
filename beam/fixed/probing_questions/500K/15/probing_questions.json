@@ -278,7 +278,7 @@
           42
         ],
         "updated_info": [
-          42
+          108
         ]
       },
       "rubric": [
@@ -298,7 +298,7 @@
       "potential_confusion": "LLM might incorrectly recall original $2,500 budget instead of updated $2,900 amount",
       "source_chat_ids": {
         "original_info": [
-          450
+          294
         ],
         "updated_info": [
           450

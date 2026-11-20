@@ -76,9 +76,11 @@
         "first_statement": [
           332,
           338,
-          424
+          340
         ],
-        "second_statement": []
+        "second_statement": [
+          490
+        ]
       },
       "rubric": [
         "LLM response should state: there is contradictory information",
@@ -370,7 +372,9 @@
         "original_info": [
           66
         ],
-        "updated_info": []
+        "updated_info": [
+          154
+        ]
       },
       "rubric": [
         "LLM response should state: March 18, 2024"

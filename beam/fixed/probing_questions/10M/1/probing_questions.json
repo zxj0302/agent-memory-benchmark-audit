@@ -492,7 +492,7 @@
     },
     {
       "question": "How many tasks are logged in Jira for load balancing, and what is the sprint completion target percentage?",
-      "answer": "There are 14 tasks logged for load balancing, with a sprint completion target of 85%.",
+      "answer": "There are 12 tasks logged for load balancing, with an updated sprint completion target of 85%.",
       "difficulty": "moderate",
       "update_type": "task_count_and_target_revision",
       "tests_retention_of": "updated number of tasks and sprint completion target",
@@ -511,7 +511,7 @@
       },
       "plan_reference": "Plan 6",
       "rubric": [
-        "LLM response should state: 14 tasks",
+        "LLM response should state: 12 tasks",
         "LLM response should state: 85%"
       ]
     }

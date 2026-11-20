@@ -83,29 +83,36 @@
   "event_ordering": [
     {
       "question": "Can you walk me through the order in which I brought up different ideas about incorporating my musical interests into university events and lectures from January 1, 2021 to February 25, 2021, in order? Mention ONLY and ONLY seven items.",
-      "answer": "You mentioned your ideas in this order: 1) Considering how ukulele skills could enhance lectures at New Jeffreytown University, possibly at Campus Plaza events, 2) Thinking of integrating ukulele into a cultural lecture at Campus Hall for 50 students, 3) Considering a ukulele demo for a university event at Campus Plaza for 40 colleagues, 4) Planning a ukulele snippet for a university lecture at Campus Hall for 45 students, 5) Planning to mention ukulele learning in a university seminar at Campus Plaza for 30 attendees, 6) Considering a ukulele workshop for students at Campus Hall targeting 35 participants, 7) Dreaming of small university gigs at Campus Plaza once skilled.",
+      "answer": "You mentioned your ideas in this order: 1) Dreaming of small university gigs at Campus Plaza once skilled, 2) Considering how ukulele skills could enhance lectures at New Jeffreytown University, possibly at Campus Plaza events, 3) Thinking of integrating ukulele into a cultural lecture at Campus Hall for 50 students, 4) Considering a ukulele demo for a university event at Campus Plaza for 40 colleagues, 5) Planning to mention ukulele learning in a university seminar at Campus Plaza for 30 attendees, 6) Considering a ukulele workshop for students at Campus Hall targeting 35 participants, 7) Planning a ukulele snippet for a university lecture at Campus Hall for 45 students.",
       "difficulty": "medium",
       "ordering_type": "mention_sequence",
       "total_mentions": 7,
       "conversation_references": [
+        "Dreaming of small university gigs at Campus Plaza",
         "Initial consideration of ukulele skills for lectures at New Jeffreytown University and Campus Plaza events",
         "Integration of ukulele into cultural lecture at Campus Hall",
         "Planning a ukulele demo for a university event at Campus Plaza",
-        "Planning a ukulele snippet for a lecture at Campus Hall",
         "Planning to mention ukulele learning in a seminar at Campus Plaza",
         "Considering a ukulele workshop for students at Campus Hall",
-        "Dreaming of small university gigs at Campus Plaza"
+        "Planning a ukulele snippet for a lecture at Campus Hall"
       ],
       "ordering_tested": [
-        "1st: Ukulele skills enhancing lectures at New Jeffreytown University (Campus Plaza)",
-        "2nd: Integrating ukulele into cultural lecture at Campus Hall",
-        "3rd: Ukulele demo at Campus Plaza for colleagues",
-        "4th: Ukulele snippet for lecture at Campus Hall",
+        "1st: Dreaming of small gigs at Campus Plaza",
+        "2nd: Ukulele skills enhancing lectures at New Jeffreytown University (Campus Plaza)",
+        "3rd: Integrating ukulele into cultural lecture at Campus Hall",
+        "4th: Ukulele demo at Campus Plaza for colleagues",
         "5th: Mentioning ukulele learning in seminar at Campus Plaza",
         "6th: Ukulele workshop for students at Campus Hall",
-        "7th: Dreaming of small gigs at Campus Plaza"
+        "7th: Ukulele snippet for lecture at Campus Hall"
       ],
       "source_chat_ids": [
+        [
+          918,
+          924,
+          930,
+          932,
+          1004
+        ],
         [
           2080,
           2086,
@@ -122,11 +129,6 @@
           2872
         ],
         [
-          3838,
-          3844,
-          3850
-        ],
-        [
           3248
         ],
         [
@@ -137,18 +139,20 @@
           3460
         ],
         [
-          "--"
+          3838,
+          3844,
+          3850
         ]
       ],
       "plan_reference": "Plan 0-1",
       "rubric": [
+        "Dreaming of small gigs at Campus Plaza",
         "Ukulele skills enhancing lectures at New Jeffreytown University (Campus Plaza)",
         "Integrating ukulele into cultural lecture at Campus Hall",
         "Ukulele demo at Campus Plaza for colleagues",
-        "Ukulele snippet for lecture at Campus Hall",
         "Mentioning ukulele learning in seminar at Campus Plaza",
         "Ukulele workshop for students at Campus Hall",
-        "Dreaming of small gigs at Campus Plaza"
+        "Ukulele snippet for lecture at Campus Hall"
       ]
     },
     {
