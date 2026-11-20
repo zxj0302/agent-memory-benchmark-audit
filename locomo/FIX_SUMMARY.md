@@ -10,7 +10,7 @@
 | Original File (`original/`) | Corrected File (`fixed/`) | Description |
 | :--- | :--- | :--- |
 | [`original/locomo10.json`](./original/locomo10.json) | [`fixed/locomo10.json`](./fixed/locomo10.json) | Original LoCoMo dataset (10 long-term multi-session dialogues, 1,986 QAs) |
-| [`original/locomo_refined.json`](./original/locomo_refined.json) | [`fixed/locomo_refined.json`](./fixed/locomo_refined.json) | LoCoMo_refined cleaned dataset (10 dialogues, 1,732 QAs) |
+| [`original/locomo_refined.json`](./original/locomo_refined.json) | [`fixed/locomo_refined.json`](./fixed/locomo_refined.json) | LoCoMo_refined cleaned dataset (10 dialogues, 1,382 QAs) |
 | [`original/evaluation.py`](./original/evaluation.py) | [`fixed/evaluation.py`](./fixed/evaluation.py) | Official LoCoMo lexical metric evaluation script |
 | [`original/llm_judge.py`](./original/llm_judge.py) | [`fixed/llm_judge.py`](./fixed/llm_judge.py) | LoCoMo_refined LLM-as-a-Judge evaluation module & prompt templates |
 

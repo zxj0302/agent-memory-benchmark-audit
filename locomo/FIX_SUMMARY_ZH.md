@@ -10,7 +10,7 @@
 | 原文件路径 (`original/`) | 修正后路径 (`fixed/`) | 文件说明 |
 | :--- | :--- | :--- |
 | [`original/locomo10.json`](./original/locomo10.json) | [`fixed/locomo10.json`](./fixed/locomo10.json) | 原版 LoCoMo 全部 10 组长对话与 1,986 道问答 |
-| [`original/locomo_refined.json`](./original/locomo_refined.json) | [`fixed/locomo_refined.json`](./fixed/locomo_refined.json) | LoCoMo_refined 清洗版全部 10 组对话与 1,732 道问答 |
+| [`original/locomo_refined.json`](./original/locomo_refined.json) | [`fixed/locomo_refined.json`](./fixed/locomo_refined.json) | LoCoMo_refined 清洗版全部 10 组对话与 1,382 道问答 |
 | [`original/evaluation.py`](./original/evaluation.py) | [`fixed/evaluation.py`](./fixed/evaluation.py) | 原版 LoCoMo 官方词汇指标评测代码 |
 | [`original/llm_judge.py`](./original/llm_judge.py) | [`fixed/llm_judge.py`](./fixed/llm_judge.py) | LoCoMo_refined LLM-as-a-Judge 评测代码与提示词 |
 
