@@ -205,8 +205,7 @@
     ],
     "answer_session_ids": [
       "answer_4be1b6b4_2",
-      "answer_4be1b6b4_3",
-      "answer_4be1b6b4_1"
+      "answer_4be1b6b4_3"
     ]
   },
   {
@@ -1798,11 +1797,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_099c1b6c_3",
-      "answer_099c1b6c_1",
-      "answer_099c1b6c_2",
-      "answer_099c1b6c_4",
-      "answer_099c1b6c_5"
+      "answer_099c1b6c_1"
     ],
     "audit_orig_question_date": "2023/05/30 (Tue) 01:50"
   },
@@ -3563,7 +3558,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_5e3bb940_1",
       "answer_5e3bb940_3",
       "answer_5e3bb940_2"
     ],
@@ -6682,7 +6676,6 @@
     ],
     "answer_session_ids": [
       "answer_544fe66c_2",
-      "answer_544fe66c_1",
       "answer_544fe66c_3"
     ],
     "audit_orig_question_date": "2023/05/25 (Thu) 07:58"
@@ -7250,7 +7243,6 @@
     ],
     "answer_session_ids": [
       "answer_aaf71ce2_2",
-      "answer_aaf71ce2_1",
       "answer_aaf71ce2_3"
     ]
   },
@@ -8636,8 +8628,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_b3070ec4_abs_1",
-      "answer_b3070ec4_abs_2"
+      "answer_b3070ec4_abs_1"
     ],
     "audit_orig_question_date": "2023/05/30 (Tue) 08:08"
   },
@@ -8781,10 +8772,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_e5131a1b_abs_2",
-      "answer_e5131a1b_abs_1"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "982b5123_abs",
@@ -8927,8 +8915,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_ab603dd5_abs_1",
-      "answer_ab603dd5_abs_2"
+      "answer_ab603dd5_abs_1"
     ]
   },
   {
@@ -9072,7 +9059,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_70dc7d08_abs_2",
       "answer_70dc7d08_abs_1"
     ],
     "audit_orig_question_date": "2023/05/27 (Sat) 17:02"
@@ -9208,8 +9194,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_d8e33f5c_abs_1",
-      "answer_d8e33f5c_abs_2"
+      "answer_d8e33f5c_abs_1"
     ],
     "audit_orig_question_date": "2023/05/26 (Fri) 00:18"
   },
@@ -9354,8 +9339,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_65600ff6_abs_2",
-      "answer_65600ff6_abs_1"
+      "answer_65600ff6_abs_2"
     ],
     "audit_orig_question_date": "2023/03/17 (Fri) 16:37"
   },
@@ -10285,7 +10269,6 @@
     ],
     "answer_session_ids": [
       "answer_a8b4290f_2",
-      "answer_a8b4290f_3",
       "answer_a8b4290f_1"
     ]
   },
@@ -10640,7 +10623,6 @@
     ],
     "answer_session_ids": [
       "answer_c2204106_2",
-      "answer_c2204106_3",
       "answer_c2204106_1"
     ]
   },
@@ -14064,7 +14046,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_990c8992_3",
       "answer_990c8992_2",
       "answer_990c8992_1"
     ]
@@ -15099,7 +15080,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_a21f3697_3",
       "answer_a21f3697_2",
       "answer_a21f3697_1"
     ]
@@ -16385,7 +16365,6 @@
     ],
     "answer_session_ids": [
       "answer_39900a0a_1",
-      "answer_39900a0a_2",
       "answer_39900a0a_3"
     ]
   },
@@ -18025,7 +18004,6 @@
     ],
     "answer_session_ids": [
       "answer_e7fe8c8b_2",
-      "answer_e7fe8c8b_1",
       "answer_e7fe8c8b_3"
     ]
   },
@@ -18327,7 +18305,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_3826dc55_5",
       "answer_3826dc55_3",
       "answer_3826dc55_2",
       "answer_3826dc55_4",
@@ -19855,8 +19832,7 @@
     "answer_session_ids": [
       "answer_826d51da_3",
       "answer_826d51da_4",
-      "answer_826d51da_2",
-      "answer_826d51da_1"
+      "answer_826d51da_2"
     ]
   },
   {
@@ -20845,8 +20821,7 @@
     "answer_session_ids": [
       "answer_2bd23659_3",
       "answer_2bd23659_1",
-      "answer_2bd23659_2",
-      "answer_2bd23659_4"
+      "answer_2bd23659_2"
     ]
   },
   {
@@ -21917,11 +21892,9 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_da3c1266_3",
       "answer_da3c1266_5",
       "answer_da3c1266_1",
-      "answer_da3c1266_2",
-      "answer_da3c1266_4"
+      "answer_da3c1266_2"
     ]
   },
   {
@@ -22192,12 +22165,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_733e443a_abs_1",
-      "answer_733e443a_abs_2",
-      "answer_733e443a_abs_4",
-      "answer_733e443a_abs_3"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "80ec1f4f_abs",
@@ -22403,11 +22371,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_990c8992_abs_3",
-      "answer_990c8992_abs_2",
-      "answer_990c8992_abs_1"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "eeda8a6d_abs",
@@ -22549,10 +22513,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_3e5fea0e_abs_2",
-      "answer_3e5fea0e_abs_1"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "60bf93ed_abs",
@@ -22694,10 +22655,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_e0956e0a_abs_2",
-      "answer_e0956e0a_abs_1"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "edced276_abs",
@@ -22810,7 +22768,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_60e8941a_abs_1",
       "answer_60e8941a_abs_2"
     ]
   },
@@ -23008,11 +22965,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_35c5419d_abs_3",
-      "answer_35c5419d_abs_1",
-      "answer_35c5419d_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "6a1eabeb",
@@ -28793,7 +28746,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_bcce0b73_1",
       "answer_bcce0b73_2"
     ]
   },
@@ -29778,7 +29730,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_8a791264_1",
       "answer_8a791264_2"
     ]
   },
@@ -33107,10 +33058,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_3f9693b7_abs_1",
-      "answer_3f9693b7_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "031748ae_abs",
@@ -33252,10 +33200,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_8748f791_abs_1",
-      "answer_8748f791_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "2698e78f_abs",
@@ -33397,10 +33342,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_9282283d_abs_1",
-      "answer_9282283d_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "2133c1b5_abs",
@@ -33542,10 +33484,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_52382508_abs_1",
-      "answer_52382508_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "0ddfec37_abs",
@@ -33677,10 +33616,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_a22b654d_abs_1",
-      "answer_a22b654d_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "f685340e_abs",
@@ -33822,10 +33758,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_25df025b_abs_1",
-      "answer_25df025b_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "89941a94",
@@ -45738,9 +45671,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_c6fd8ebd_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "15745da0_abs",
@@ -45818,9 +45749,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_586de428_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "bc8a6e93_abs",
@@ -45898,9 +45827,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_e6143162_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "19b5f2b3_abs",
@@ -45978,9 +45905,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_5ff494b9_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "29f2956b_abs",
@@ -46058,9 +45983,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_7cc5362f_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "f4f1d8a4_abs",
@@ -46138,9 +46061,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_f5b33470_abs"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "gpt4_59149c77",
@@ -54247,8 +54168,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_8c64ce26_2",
-      "answer_8c64ce26_1",
       "answer_8c64ce26_3"
     ]
   },
@@ -54601,9 +54520,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_4bfcc251_4",
-      "answer_4bfcc251_3",
-      "answer_4bfcc251_2",
       "answer_4bfcc251_1"
     ]
   },
@@ -54930,10 +54846,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_f999b05c_1",
-      "answer_f999b05c_4",
-      "answer_f999b05c_2",
-      "answer_f999b05c_5",
       "answer_f999b05c_3"
     ]
   },
@@ -55078,7 +54990,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_16bd5ea6_1",
       "answer_16bd5ea6_2"
     ]
   },
@@ -55405,11 +55316,8 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_d8a1af6c_1",
-      "answer_d8a1af6c_2",
       "answer_d8a1af6c_5",
-      "answer_d8a1af6c_4",
-      "answer_d8a1af6c_3"
+      "answer_d8a1af6c_4"
     ]
   },
   {
@@ -55543,7 +55451,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_d00ba6d1_1",
       "answer_d00ba6d1_2"
     ]
   },
@@ -55678,7 +55585,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_e28c1f0e_1",
       "answer_e28c1f0e_2"
     ]
   },
@@ -55823,7 +55729,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_add9b013_2",
       "answer_add9b013_1"
     ]
   },
@@ -56048,7 +55953,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_ff201787_1",
       "answer_ff201787_2"
     ]
   },
@@ -56193,7 +56097,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_dba89488_2",
       "answer_dba89488_1"
     ]
   },
@@ -56338,7 +56241,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_0d4d0348_1",
       "answer_0d4d0348_2"
     ]
   },
@@ -56483,8 +56385,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_4bebc783_1",
-      "answer_4bebc783_2"
+      "answer_4bebc783_1"
     ]
   },
   {
@@ -56682,9 +56583,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_f4ea84fc_3",
-      "answer_f4ea84fc_2",
-      "answer_f4ea84fc_1"
+      "answer_f4ea84fc_2"
     ]
   },
   {
@@ -56828,7 +56727,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_88841f27_1",
       "answer_88841f27_2"
     ]
   },
@@ -57123,8 +57021,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_9793daa4_2",
-      "answer_9793daa4_1"
+      "answer_9793daa4_2"
     ]
   },
   {
@@ -66382,10 +66279,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_bf633415_abs_2",
-      "answer_bf633415_abs_1"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "6456829e_abs",
@@ -66528,8 +66422,7 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_743f03a1_abs_1",
-      "answer_743f03a1_abs_2"
+      "answer_743f03a1_abs_1"
     ]
   },
   {
@@ -66663,7 +66556,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_e49ed9d3_abs_2",
       "answer_e49ed9d3_abs_1"
     ]
   },
@@ -66797,10 +66689,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_ef84b994_abs_1",
-      "answer_ef84b994_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "ba358f49_abs",
@@ -66942,10 +66831,7 @@
         }
       ]
     ],
-    "answer_session_ids": [
-      "answer_cbd08e3c_abs_1",
-      "answer_cbd08e3c_abs_2"
-    ]
+    "answer_session_ids": []
   },
   {
     "question_id": "09ba9854_abs",
@@ -67078,7 +66964,6 @@
       ]
     ],
     "answer_session_ids": [
-      "answer_96c743d0_abs_2",
       "answer_96c743d0_abs_1"
     ]
   }

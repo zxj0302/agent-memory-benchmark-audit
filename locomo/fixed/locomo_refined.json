@@ -284,7 +284,10 @@
           "Likely no, she does not refer to herself as part of it",
           "There is no evidence to suggest that Melanie is a member of the LGBTQ community."
         ],
-        "evidence": [],
+        "evidence": [
+          "D1:8",
+          "D3:14"
+        ],
         "category": 3,
         "is_multi_modality": false
       },
@@ -59854,9 +59857,14 @@
       {
         "question": "Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.",
         "answer": [
-          "yes"
+          "no"
         ],
-        "evidence": [],
+        "evidence": [
+          "D15:10",
+          "D17:7",
+          "D18:11",
+          "D30:21"
+        ],
         "category": 3,
         "is_multi_modality": false
       },

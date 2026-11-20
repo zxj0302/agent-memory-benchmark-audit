@@ -25,6 +25,7 @@
 | **重复 `haystack_session_ids` 导致字典覆盖** | `longmemeval_s_cleaned` 中有 **13 道题**在同一题的 `haystack_session_ids` 列表内重复出现完全相同的 `session_id`（内容相同但分配了不同日期），导致按 `session_id` 构建检索索引的记忆系统静默丢弃前一条会话。 | 为同题内重复出现的会话 ID 追加 `__dup1` 消歧后缀 | `s_cleaned` **13 题** |
 | **会话未按时间顺序排列（违背官方文档声明）** | 官方文档声明长对话已按时间戳升序排列，但实测 `s_cleaned` 中 **211/500 题（42.2%）**、`oracle` 中 **34/500 题（6.8%）** 的 `haystack_dates` 存在时间乱序，破坏流式记忆写入与状态更新评测。 | 按解析后的真实时间戳对 `(haystack_dates, haystack_session_ids, haystack_sessions)` 同步稳定升序重排 | `s_cleaned` **211 题**<br>`oracle` **34 题** |
 | **`question_date` 早于历史会话的因果倒挂** | `s_cleaned` 中 **76/500 题（15.2%）**、`oracle` 中 **43/500 题（8.6%）** 的提问时间 `question_date` 竟然**早于**其历史对话中最晚会话的时间（“在未来对话发生之前提问”）。 | 将倒挂题目的 `question_date` 钳位修正至最晚历史会话时间，并将原时间戳保留在 `audit_orig_question_date` | `s_cleaned` **76 题**<br>`oracle` **43 题** |
+| **`answer_session_ids` 混入无关负样本会话（Golden Evidence 污染）** | `s_cleaned` 与 `oracle` 中均有 **62/500 题（12.4%）**（含 **32 道**常规可答题，覆盖 `temporal-reasoning`、`multi-session`、`knowledge-update`、`single-session-user`，以及 **30 道** `_abs` 拒答题）在顶层 `answer_session_ids` 中混入了全轮 `has_answer: false` 的强干扰会话（`answer_*_2.._5`）。上游作者在 `run_retrieval.py` 中用隐式字符串替换 `replace('answer', 'noans')` 临时绕过（开启 `index_expansion` 时仍会失效），导致任何直接读取 JSON `answer_session_ids` 计算检索 Recall 的评测被严重压分。 | 严格对齐轮次级 `has_answer: true` 标注，清理顶层 `answer_session_ids` 中混入的伪证据会话 | 各 **62 题**（`32` 常规题 + `30` `_abs` 题） |
 | **答案字段数据类型不统一** | 两个子集中均有 **32 道题**的 `answer` 为整型 `int`（如 `3`、`2`）而非字符串 `str`。 | 统一转换为 `str` | 各 **32 题** |
 
 ---

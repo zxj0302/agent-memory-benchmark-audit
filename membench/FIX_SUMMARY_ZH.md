@@ -26,6 +26,7 @@
 | **多选题 A/B/C/D 存在完全相同的重复选项** | `FirstAgent` 中 **400 道题**、`ThirdAgent` 中 **377 道题**（合计 **777 道四选一题**）在 `choices` 中出现两个或以上字面完全一致的选项文本（含正确选项与干扰项完全相同的情况），导致多选题失去唯一解。 | 保持 `ground_truth` 对应选项文本不变，对其余重复干扰项追加 `(duplicate option <X>)` 消歧标记 | **787 个**重复选项槽位 |
 | **选项值数据类型不统一（`list` vs `str`）** | 推荐与高层归纳子集中大量 `choices` 选项值为列表 `list` 而非字符串 `str`，导致统一格式化提示词或做字符串比对时报错。 | 将 `list` 型选项统一序列化拼接为标准 `str` | **7,460 个**选项值 |
 | **`ThirdAgent` 对话轮次 `message` 为空值 `None`** | `ThirdAgent` 部分轨迹记录中 `message` 字段为 `None`，直接拼接上下文或送入 Embedding 模型会触发 `TypeError`。 | 统一替换为空字符串 `""` | **65 条**消息记录 |
+| **`target_step_id` 会话边界 `+1` 越界偏移与空证据列表（Golden Evidence）** | • `FirstAgent/comparative.json`（`events` 子集）中，凡目标事实位于某会话末尾一轮时，`target_step_id` 均误记为 `[last_sid + 1, sess_idx]`：其中 **38 道题**串入下一会话首句无关事件（如 `[44, 1]` 指向第 2 会话 `"DataFest"`，实为第 1 会话 `[43, 1]` `"Culture Fest"`），另有 **5 道题**在末会话直接超出 `max(sid)` 越界悬空（如 `[111, 4]` → `[110, 4]`）；<br>• `FirstAgent/highlevel_rec.json`（`movie[25, 156, 300, 423]`）中有 **4 道题**的 `target_step_id` 为空数组 `[]`。 | 将 **43 道**会话边界偏移指针修正为 `[sid - 1, sess_idx]`，并为 **4 道**空指针题补全精确 `[mid, sess_idx]` 证据位置 | **47 题**（`43` 越界偏移 + `4` 空指针） |
 
 ---
 

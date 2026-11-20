@@ -258,7 +258,10 @@
       {
         "question": "Would Melanie be considered a member of the LGBTQ community?",
         "answer": "Likely no, she does not refer to herself as part of it",
-        "evidence": [],
+        "evidence": [
+          "D1:8",
+          "D3:14"
+        ],
         "category": 3
       },
       {
@@ -401,7 +404,10 @@
       {
         "question": "Would Melanie be considered an ally to the transgender community?",
         "answer": "Yes, she is supportive",
-        "evidence": [],
+        "evidence": [
+          "D1:8",
+          "D1:12"
+        ],
         "category": 3
       },
       {
@@ -5649,7 +5655,7 @@
         "question": "What does Gina say about the dancers in the photo?",
         "answer": "They look graceful",
         "evidence": [
-          "D1:26"
+          "D1:25"
         ],
         "category": 4
       },
@@ -60436,7 +60442,9 @@
       {
         "question": "Would Dave prefer working on a Dodge Charger or a Subaru Forester?",
         "answer": "Dodge Charger",
-        "evidence": [],
+        "evidence": [
+          "D13:9"
+        ],
         "category": 3
       },
       {
@@ -60460,7 +60468,12 @@
       {
         "question": "Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.",
         "answer": "No",
-        "evidence": [],
+        "evidence": [
+          "D15:10",
+          "D17:7",
+          "D18:11",
+          "D30:21"
+        ],
         "category": 3
       },
       {
