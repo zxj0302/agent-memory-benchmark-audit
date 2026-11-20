@@ -18,7 +18,8 @@
           "2022"
         ],
         "evidence": [
-          "D1:12"
+          "D1:12",
+          "D1:14"
         ],
         "category": 2,
         "is_multi_modality": true
@@ -917,7 +918,7 @@
         "is_multi_modality": false
       },
       {
-        "question": "What is Melanie's hand-painted bowl a reminder of?",
+        "question": "What is Caroline's hand-painted bowl a reminder of?",
         "answer": [
           "art and self-expression"
         ],
@@ -1581,7 +1582,9 @@
           "Went on a nature walk or hike"
         ],
         "evidence": [
-          "D18:17"
+          "D18:15",
+          "D18:17",
+          "D18:18"
         ],
         "category": 4,
         "is_multi_modality": true
@@ -17115,6 +17118,7 @@
           "10 November, 2022"
         ],
         "evidence": [
+          "D28:31",
           "D28:32"
         ],
         "category": 2,
@@ -17798,6 +17802,7 @@
           "Won a video game tournament"
         ],
         "evidence": [
+          "D17:1",
           "D17:2"
         ],
         "category": 4,
@@ -24278,7 +24283,7 @@
           "Last Friday before December 11, 2023"
         ],
         "evidence": [
-          "D23:2"
+          "D23:3"
         ],
         "category": 2,
         "is_multi_modality": false
@@ -24438,6 +24443,7 @@
           "a tough win"
         ],
         "evidence": [
+          "D3:3",
           "D3:5"
         ],
         "category": 4,
@@ -32365,6 +32371,7 @@
           "by biking"
         ],
         "evidence": [
+          "D20:33",
           "D20:35"
         ],
         "category": 4,
@@ -32431,9 +32438,10 @@
       {
         "question": "How does Audrey help out the animal shelter?",
         "answer": [
-          "By donating a portion of his profits frmo selling jwelery"
+          "By donating a portion of her profits from selling jewelry"
         ],
         "evidence": [
+          "D22:7",
           "D22:9"
         ],
         "category": 4,
@@ -46803,6 +46811,7 @@
           "a yellow coffee cup with a handwritten message"
         ],
         "evidence": [
+          "D8:21",
           "D8:22"
         ],
         "category": 4,
@@ -54150,7 +54159,9 @@
       {
         "question": "When did Evan have a drunken night with his friends?",
         "answer": [
-          "2024-01-09 00:00:00"
+          "January 9, 2024",
+          "9 January 2024",
+          "2024-01-09"
         ],
         "evidence": [
           "D24:3"
@@ -54255,6 +54266,7 @@
           "flavored seltzer water and dark chocolate with high cocoa content"
         ],
         "evidence": [
+          "D3:5",
           "D3:6"
         ],
         "category": 4,
@@ -54421,7 +54433,8 @@
           "skiing"
         ],
         "evidence": [
-          "D8:26"
+          "D8:26",
+          "D8:28"
         ],
         "category": 4,
         "is_multi_modality": true
@@ -59433,6 +59446,7 @@
           "March, 2023"
         ],
         "evidence": [
+          "D2:8",
           "D2:10"
         ],
         "category": 2,
@@ -60075,7 +60089,7 @@
           "November 16, 2023"
         ],
         "evidence": [
-          "D30:1"
+          "D30:2"
         ],
         "category": 2,
         "is_multi_modality": false
@@ -60254,7 +60268,9 @@
           "Skiing"
         ],
         "evidence": [
-          "D9:15"
+          "D9:15",
+          "D9:16",
+          "D9:17"
         ],
         "category": 4,
         "is_multi_modality": true
@@ -60467,7 +60483,9 @@
           "purple"
         ],
         "evidence": [
-          "D16:20"
+          "D16:18",
+          "D16:20",
+          "D16:21"
         ],
         "category": 4,
         "is_multi_modality": false

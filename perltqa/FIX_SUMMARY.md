@@ -30,6 +30,6 @@
 * **Removed Unanswerable Missing-Background Entity QAs**: Filtered **3 defective QAs** (`Madan` farm advantages, `Xiong Fei` contact method, `Feng Wei` German energy company name) that asked for specific facts omitted from the background memory—where even the Gold Answer admitted *"is not mentioned in the background information"* / *"were not provided"*.
 
 ### 2.3 Loader & Retrieval Training Code (`3 Files`)
-* **`dataset.py`**: Fixed hardcoded Chinese dictionary keys (`"主人公"` / `v["关系"]`) and added `ast.literal_eval` fallback so `PerLTMem` works seamlessly on both `en_v2` and `zh`.
+* **`dataset.py`**: Added top-level `dict` support in `PerLTMem.read_json_data()` and `PerLTQA.read_json_data()` (preventing `TypeError: string indices must be integers` when loading `perltmem_en_v2.json` alongside list-rooted `zh`/`en` files), fixed hardcoded Chinese keys (`"主人公"` / `v["关系"]`), and added `ast.literal_eval` fallback across `extract_relationships` / `extract_social_relationships` / `extract_social_relationship_by_id`.
 * **`modeling.py`**: Replaced `with torch.no_grad():` wrapping the training loss forward path with `with torch.set_grad_enabled(self.training):` so gradients propagate during training.
 * **`encoder_corpus.py`**: Fixed missing parentheses on `torch.cuda.is_available` (`if torch.cuda.is_available:` always evaluated to `True`, crashing on CPU/macOS hosts with `cuda:0` error) → `torch.cuda.is_available()`.

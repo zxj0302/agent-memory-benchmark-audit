@@ -30,6 +30,6 @@
 * **剔除背景记忆缺失导致不可答的残次事实题**：剔除了 **3 道**追问具体实体或细节但背景记忆从未提及、连标准答案自身都写 *"is not mentioned in the background information"* / *"were not provided"* 的残次题（`Madan` 农场优势题、`Xiong Fei` 交换联系方式题、`Feng Wei` 德国能源公司名称题）。
 
 ### 3. 数据加载与检索训练代码修复
-* **`dataset.py`**：原 `extract_relationships` 硬编码中文键名 `v["关系"]` 且未兼容字符串化 `social_relationship`，在英文版 `en_v2` 上必报 `TypeError`/`KeyError`；已修正为同时兼容中英文键名（`"Protagonist"`/`"主人公"`、`"Relationship"`/`"关系"`）并支持安全反序列化。
+* **`dataset.py`**：原 `read_json_data` 按列表遍历导致加载顶层为字典 `dict` 的 `perltmem_en_v2.json` 时必报 `TypeError: string indices must be integers`，且 `extract_relationships` 硬编码中文键名 `v["关系"]`、未兼容字符串化 `social_relationship`；已兼容顶层 `dict`/`list` 双格式、中英文键名（`"Protagonist"`/`"主人公"`、`"Relationship"`/`"关系"`）并支持安全反序列化。
 * **`modeling.py`**：原模型 `forward()` 将包含训练损失计算的核心前向路径包裹在 `with torch.no_grad():` 中，导致反向传播无梯度；已修正为 `with torch.set_grad_enabled(self.training):`。
 * **`encoder_corpus.py`**：原代码将函数调用 `torch.cuda.is_available()` 漏掉括号写成函数对象引用 `if torch.cuda.is_available:`（恒为 `True`），导致无 GPU 环境下强行绑定 `cuda:0` 崩溃；已补全括号。

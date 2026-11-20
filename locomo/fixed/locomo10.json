@@ -13,7 +13,8 @@
         "question": "When did Melanie paint a sunrise?",
         "answer": "2022",
         "evidence": [
-          "D1:12"
+          "D1:12",
+          "D1:14"
         ],
         "category": 2
       },
@@ -268,6 +269,7 @@
         "question": "When did Melanie go camping in June?",
         "answer": "The week before 27 June 2023",
         "evidence": [
+          "D4:6",
           "D4:8"
         ],
         "category": 2
@@ -631,7 +633,7 @@
         "question": "When did Melanie's friend adopt a child?",
         "answer": "2022",
         "evidence": [
-          "D17:3"
+          "D17:4"
         ],
         "category": 2
       },
@@ -808,7 +810,7 @@
         "category": 4
       },
       {
-        "question": "What is Melanie's hand-painted bowl a reminder of?",
+        "question": "What is Caroline's hand-painted bowl a reminder of?",
         "answer": "art and self-expression",
         "evidence": [
           "D4:5"
@@ -1268,7 +1270,9 @@
         "question": "What did Melanie do after the road trip to relax?",
         "answer": "Went on a nature walk or hike",
         "evidence": [
-          "D18:17"
+          "D18:15",
+          "D18:17",
+          "D18:18"
         ],
         "category": 4
       },
@@ -9315,7 +9319,7 @@
         "question": "When did Maria meet Jean?",
         "answer": "February 24, 2023",
         "evidence": [
-          "D7:1"
+          "D7:5"
         ],
         "category": 2
       },
@@ -17194,6 +17198,7 @@
         "question": "When did Joanna plan on going to Nate's to watch him play with his turtles?",
         "answer": "10 November, 2022",
         "evidence": [
+          "D28:31",
           "D28:32"
         ],
         "category": 2
@@ -17738,6 +17743,8 @@
         "question": "What recipe Nate offer to share with Joanna?",
         "answer": "vegan ice cream recipe",
         "evidence": [
+          "D16:8",
+          "D16:9",
           "D16:10"
         ],
         "category": 4
@@ -17794,6 +17801,7 @@
         "question": "What did Nate do while Joanna was on her road trip?",
         "answer": "Won a video game tournament",
         "evidence": [
+          "D17:1",
           "D17:2"
         ],
         "category": 4
@@ -24549,9 +24557,9 @@
       },
       {
         "question": "When did John achieve a career-high assist performance?",
-        "answer": "December 11, 2023",
+        "answer": "The Friday before December 11, 2023",
         "evidence": [
-          "D23:2"
+          "D23:3"
         ],
         "category": 2
       },
@@ -24711,6 +24719,7 @@
         "question": "What did John celebrate at a restaurant with teammates?",
         "answer": "a tough win",
         "evidence": [
+          "D3:3",
           "D3:5"
         ],
         "category": 4
@@ -32621,6 +32630,7 @@
         "question": "How does Andrew suggest helping the planet while also training the body?",
         "answer": "by biking",
         "evidence": [
+          "D20:33",
           "D20:35"
         ],
         "category": 4
@@ -32661,14 +32671,16 @@
         "question": "What organization does Audrey donate a portion of his profits to?",
         "answer": "Animal shelter",
         "evidence": [
-          "D22:7"
+          "D22:7",
+          "D22:9"
         ],
         "category": 4
       },
       {
         "question": "How does Audrey help out the animal shelter?",
-        "answer": "By donating a portion of his profits frmo selling jwelery",
+        "answer": "By donating a portion of her profits from selling jewelry",
         "evidence": [
+          "D22:7",
           "D22:9"
         ],
         "category": 4
@@ -39221,7 +39233,7 @@
       },
       {
         "question": "How many days did James plan to spend on his trip in Canada?",
-        "answer": "19 days",
+        "answer": "9 days",
         "evidence": [
           "D16:9",
           "D16:13"
@@ -39911,7 +39923,8 @@
         "question": "Whose phone number did James receive during the beach outing?",
         "answer": "Samantha",
         "evidence": [
-          "D19:14"
+          "D19:14",
+          "D19:16"
         ],
         "category": 4
       },
@@ -39927,6 +39940,7 @@
         "question": "What is John organizing with his siblings?",
         "answer": "a gaming night",
         "evidence": [
+          "D20:16",
           "D20:17"
         ],
         "category": 4
@@ -47067,7 +47081,8 @@
         "question": "What milestone did Jolene achieve recently on 4 February, 2023?",
         "answer": "Design and build a sustainable water purifier for a rural community",
         "evidence": [
-          "D4:3"
+          "D4:3",
+          "D4:5"
         ],
         "category": 4
       },
@@ -47163,6 +47178,7 @@
         "question": "What did Deb share a photo of, which brought a smile to Jolene's face?",
         "answer": "a yellow coffee cup with a handwritten message",
         "evidence": [
+          "D8:21",
           "D8:22"
         ],
         "category": 4
@@ -47464,7 +47480,7 @@
         "category": 4
       },
       {
-        "question": "What habits does Jolene practice to feel balanced?",
+        "question": "What habits does Deborah practice to feel balanced?",
         "answer": "yoga, meditation, walks, and mindfulness",
         "evidence": [
           "D20:12"
@@ -54156,7 +54172,7 @@
         "category": 2
       },
       {
-        "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+        "question": "What significant event happened in Evan's life towards the end of summer 2023?",
         "answer": "He fell in love with a Canadian woman",
         "evidence": [
           "D5:1"
@@ -54688,7 +54704,7 @@
       },
       {
         "question": "When did Evan have a drunken night with his friends?",
-        "answer": "January 9, 2023",
+        "answer": "January 9, 2024",
         "evidence": [
           "D24:3"
         ],
@@ -54793,6 +54809,7 @@
         "question": "What did Sam agree to try instead of soda and candy?",
         "answer": "flavored seltzer water and dark chocolate with high cocoa content",
         "evidence": [
+          "D3:5",
           "D3:6"
         ],
         "category": 4
@@ -54937,7 +54954,8 @@
         "question": "What fun activity did Evan mention doing in July 2023?",
         "answer": "skiing",
         "evidence": [
-          "D8:26"
+          "D8:26",
+          "D8:28"
         ],
         "category": 4
       },
@@ -60114,6 +60132,7 @@
         "question": "When did Dave see Aerosmith perform live?",
         "answer": "on the weekend before March 26, 2023",
         "evidence": [
+          "D2:8",
           "D2:10"
         ],
         "category": 2
@@ -60724,7 +60743,7 @@
         "question": "When did Calvin attend a gala in Boston?",
         "answer": "November 16, 2023",
         "evidence": [
-          "D30:1"
+          "D30:2"
         ],
         "category": 2
       },
@@ -60780,6 +60799,7 @@
         "question": "What did Calvin receive as a gift from another artist?",
         "answer": "a gold necklace with a diamond pendant",
         "evidence": [
+          "D4:24",
           "D4:26"
         ],
         "category": 4
@@ -60853,7 +60873,9 @@
         "question": "What sports activity is Calvin planning to try after the tour with Frank Ocean?",
         "answer": "Skiing",
         "evidence": [
-          "D9:15"
+          "D9:15",
+          "D9:16",
+          "D9:17"
         ],
         "category": 4
       },
@@ -61005,7 +61027,9 @@
         "question": "What color glow did Calvin customize his guitar with?",
         "answer": "purple",
         "evidence": [
-          "D16:20"
+          "D16:18",
+          "D16:20",
+          "D16:21"
         ],
         "category": 4
       },
@@ -61260,7 +61284,7 @@
         "category": 4
       },
       {
-        "question": "When did Calvin first get interested in cars?",
+        "question": "When did Dave first get interested in cars?",
         "answer": "at an early age",
         "evidence": [
           "D26:6"
@@ -61340,7 +61364,7 @@
         "category": 4
       },
       {
-        "question": "What tools does Calvin use to boost his motivation for music?",
+        "question": "What tools does Dave use to boost his motivation to grow?",
         "answer": "Writing lyrics and notes",
         "evidence": [
           "D28:34"
@@ -61372,7 +61396,7 @@
         "category": 4
       },
       {
-        "question": "What hobby did Calvin take up recently?",
+        "question": "What hobby did Dave take up recently?",
         "answer": "Photography",
         "evidence": [
           "D30:1"

@@ -11,10 +11,14 @@ class PerLTMem:
             content = f.read()
             dataset = json.loads(content)
 
-        for character in dataset:
-            prof = character["profile"]
-            character_name = prof.get("Protagonist") or prof.get("主人公")
-            self.character[character_name] = character
+        if isinstance(dataset, dict):
+            for character_name, character in dataset.items():
+                self.character[character_name] = character
+        else:
+            for character in dataset:
+                prof = character["profile"]
+                character_name = prof.get("Protagonist") or prof.get("主人公")
+                self.character[character_name] = character
 
         character_data = self.character
         return character_data
@@ -47,7 +51,10 @@ class PerLTMem:
             print(e)
             print(f"Parse error for {character_name}")
             return None
-        return character_sample["social_relationship"]
+        sr = character_sample["social_relationship"]
+        if isinstance(sr, str):
+            sr = ast.literal_eval(sr)
+        return sr
 
     def extract_profile(self, character_name):
         try:
@@ -78,7 +85,10 @@ class PerLTMem:
 
     def extract_social_relationship_by_id(self,character_name, id):
         try:
-            character_semantic_memory = self.character[character_name]["social_relationship"][id]
+            sr = self.character[character_name]["social_relationship"]
+            if isinstance(sr, str):
+                sr = ast.literal_eval(sr)
+            character_semantic_memory = sr[id]
         except Exception as e:
             print(e)
             print(f"Parse error for {character_name}")
@@ -130,9 +140,13 @@ class PerLTQA:
             content = f.read()
 
             dataset = json.loads(content)
-        for sample in dataset:
-            for k, v in sample.items():
+        if isinstance(dataset, dict):
+            for k, v in dataset.items():
                 self.character[k] = v
+        else:
+            for sample in dataset:
+                for k, v in sample.items():
+                    self.character[k] = v
         character_data = self.character
         return character_data
 
