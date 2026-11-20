@@ -5260,6 +5260,11 @@
         "Supporting Characters": "Wang Yu",
         "Description": "A stranger Yang Wei met during an outdoor adventure.",
         "Relationship": "stranger"
+      },
+      "8_2": {
+        "Supporting Characters": "Li Li",
+        "Description": "Yang Wei's girlfriend, a woman who loves photography and art.",
+        "Relationship": "girlfriend"
       }
     },
     "events": {
@@ -17793,7 +17798,7 @@
         ],
         "Creation Time": "2023",
         "Last Accessed Time": "",
-        "Theme": "dragon beautiful mentor"
+        "Theme": "Long Meili mentor"
       },
       "23_5_2": {
         "content": "Under the guidance of Long Meili's mentor, she and Zhang Min conducted a study on the impact of running on heart health. The study aims to explore the impact of running on heart function and provide corresponding sports medicine recommendations. The study used a large sample size of survey and experimental data, and conducted detailed records and analysis of the participants' running habits, heart function indicators, etc. Long Meili and Zhang Min analyzed the data and found that long-term persistence in moderate running exercise can significantly improve the function and adaptability of the heart, and have a positive impact on the prevention and recovery of heart disease. The research results have been recognized and appreciated by the field of sports medicine, providing important theoretical basis and guidance for academic research and clinical practice in related fields. During the research process, Long Meili and Zhang Min worked closely together to communicate and discuss research ideas, data analysis and conclusion derivation, and jointly completed this research project. Their cooperation not only deepened each other's academic understanding and research capabilities, but also laid a solid foundation for their personal development and professional achievements. Long Meili expressed deep gratitude to Zhang Min for her guidance and support, and said she would continue to cooperate with Zhang Min in the field of sports medicine to promote more research projects that are beneficial to human health.",
@@ -19580,6 +19585,16 @@
         "Creation Time": "May 15, 2021",
         "Last Accessed Time": "",
         "Theme": "mathematical real analysis"
+      },
+      "25_0_2": {
+        "content": "In 1963, Cao Ming participated as a participant in an experiment conducted by Stanley Milova. This experiment is a study on obedience and moral choices, and Cao Ming was assigned to play the role of a teacher. In the experiment, Cao Ming was told that learners needed to be taught a series of words and tested. Every time the learner answered incorrectly, Cao Ming was asked to give an electric shock stimulus. However, in reality, the learner was an actor colluding with the experimenter and did not actually receive the shocks. The experimenter encouraged Cao Ming to continue giving electric shock stimulation through verbal instructions, even though Cao Ming could feel the learner's painful moans. During the experiment, Cao Ming felt uneasy and morally entangled, but still found it difficult to resist the experimenter's orders. This experiment triggered Cao Ming's thinking about individual responsibility and the power of individual will, and also exposed the impact of group pressure and obedience to authority on individual behavior.",
+        "summary": "participated in the experiment",
+        "Characters": [
+          "25_0"
+        ],
+        "Creation Time": "1963",
+        "Last Accessed Time": "",
+        "Theme": "Stanley Milova Experiment"
       }
     },
     "dialogues": {

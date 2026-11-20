@@ -41,5 +41,5 @@
   * **`parse_output` 首行截断与换行丢失**：原代码在模型输出 `Answer:\n<内容>` 时返回空字符串 `""`，在缺少 `Answer:` 前缀时静默截断掉第一行之后的所有内容；已改用 `re.escape(answer_prefix)` 与 `re.DOTALL` 多行匹配。
   * **`chunk_text_into_sentences` 首句超长产空块**：当首句超过 `chunk_size` 时原逻辑会先 `append("")` 产生空块，已加非空检查修复。
 * **`longmem_qa_evaluate.py`**：同步修复继承自 LongMemEval 的 `±1` 时间误差宽容、`knowledge-update` 旧事实混同及 `'yes' in response.lower()` 子串误判。
-* **`graph_rag.py`**：原代码第 552、604 行误写 `encoded[127000:]`（丢弃前 127K 正文、只保留超长尾部残片！），已修正为 `encoded[:127000]`。
+* **`graph_rag.py`**：原代码第 552、604 行误写 `encoded[llm_length_limit:]`（其中 `llm_length_limit = 127000`，丢弃前 127K 正文、只保留超长尾部残片！），已修正为 `encoded[:llm_length_limit]`。
 * **`agent.py`**：原 `_query_long_context_agent` 中 `if self.input_length_limit <= self.context_max_length + 50000:` 条件在大窗口配置下会直接跳过 `_truncate_context_if_needed`，导致超限报错；已修正为无条件执行上下文长度安全截断。

@@ -114404,7 +114404,7 @@
         ],
         "choices": {
           "A": "five weeks",
-          "B": "seven of month",
+          "B": "seven months",
           "C": "six weeks",
           "D": "four weeks"
         },
@@ -114570,7 +114570,7 @@
         "choices": {
           "A": "four weeks",
           "B": "six weeks",
-          "C": "five of days",
+          "C": "five days",
           "D": "five weeks"
         },
         "ground_truth": "D",
@@ -120015,7 +120015,7 @@
         "choices": {
           "A": "nine weeks",
           "B": "seven weeks",
-          "C": "eight weeks",
+          "C": "eight weeks (duplicate option C)",
           "D": "eight weeks"
         },
         "ground_truth": "D",
@@ -125294,7 +125294,7 @@
         ],
         "choices": {
           "A": "seven days",
-          "B": "eleven day",
+          "B": "eleven days",
           "C": "ten days",
           "D": "nine days"
         },
@@ -125461,7 +125461,7 @@
           "A": "eight weeks",
           "B": "seven weeks",
           "C": "nine weeks",
-          "D": "eight weeks"
+          "D": "eight weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-03 14:44' Thursday"
@@ -127440,7 +127440,7 @@
         "choices": {
           "A": "two weeks",
           "B": "four weeks",
-          "C": "three weeks",
+          "C": "three weeks (duplicate option C)",
           "D": "three weeks"
         },
         "ground_truth": "D",
@@ -136516,7 +136516,7 @@
           "A": "three weeks",
           "B": "four weeks",
           "C": "two weeks",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-04 21:27' Friday"
@@ -146738,15 +146738,15 @@
       "QA": {
         "qid": 0,
         "question": "What is the duration of Sales Sync?",
-        "answer": "three of month",
+        "answer": "three months",
         "target_step_id": [
           6
         ],
         "choices": {
-          "A": "three of month",
-          "B": "two of month",
-          "C": "four of month",
-          "D": "five of month"
+          "A": "three months",
+          "B": "two months",
+          "C": "four months",
+          "D": "five months"
         },
         "ground_truth": "A",
         "time": "'2024-10-04 13:52' Friday"
@@ -149551,7 +149551,7 @@
           "A": "three weeks",
           "B": "five weeks",
           "C": "four weeks",
-          "D": "four weeks"
+          "D": "four weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-05 10:26' Saturday"
@@ -151034,7 +151034,7 @@
         ],
         "choices": {
           "A": "three weeks",
-          "B": "two weeks",
+          "B": "two weeks (duplicate option B)",
           "C": "two weeks",
           "D": "four weeks"
         },
@@ -156481,7 +156481,7 @@
           "A": "two weeks",
           "B": "four weeks",
           "C": "three weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-04 21:51' Friday"
@@ -168023,15 +168023,15 @@
       "QA": {
         "qid": 0,
         "question": "What is the duration of the Sci Progress Meeting?",
-        "answer": "eight of month",
+        "answer": "eight months",
         "target_step_id": [
           12
         ],
         "choices": {
-          "A": "nine of month",
-          "B": "seven of month",
-          "C": "ten of month",
-          "D": "eight of month"
+          "A": "nine months",
+          "B": "seven months",
+          "C": "ten months",
+          "D": "eight months"
         },
         "ground_truth": "D",
         "time": "'2024-10-04 20:13' Friday"

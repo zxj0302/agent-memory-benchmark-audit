@@ -108838,7 +108838,7 @@
         ],
         "choices": {
           "A": "seven days",
-          "B": "ten of days",
+          "B": "ten days",
           "C": "four weeks",
           "D": "three weeks"
         },
@@ -111502,7 +111502,7 @@
         ],
         "choices": {
           "A": "seven days",
-          "B": "eleven day",
+          "B": "eleven days",
           "C": "ten days",
           "D": "nine days"
         },
@@ -130744,7 +130744,7 @@
           "A": "six weeks",
           "B": "ten weeks",
           "C": "eight weeks",
-          "D": "twelve of week"
+          "D": "twelve weeks"
         },
         "ground_truth": "C",
         "time": "'2024-10-10 13:15' Thursday"
@@ -157079,16 +157079,16 @@
       "QA": {
         "qid": 0,
         "question": "I found an old notebook with notes on educational strategies, but I can’t remember where I placed it. Did I attend that seminar last month?Oh right, I wanted to ask,What is the duration of the activity that mainly focuses on 'Science curriculum updates and student progress'?",
-        "answer": "eight of month",
+        "answer": "eight months",
         "target_step_id": [
           2,
           4
         ],
         "choices": {
-          "A": "seven of month",
-          "B": "eight of month",
-          "C": "nine of month",
-          "D": "ten of month"
+          "A": "seven months",
+          "B": "eight months",
+          "C": "nine months",
+          "D": "ten months"
         },
         "ground_truth": "B",
         "time": "'2024-10-09 23:59' Wednesday"
@@ -160492,7 +160492,7 @@
           "A": "four weeks",
           "B": "three weeks",
           "C": "five weeks",
-          "D": "four of days"
+          "D": "four days"
         },
         "ground_truth": "A",
         "time": "'2024-10-09 23:48' Wednesday"
@@ -163304,7 +163304,7 @@
           "A": "three weeks",
           "B": "five weeks",
           "C": "four weeks",
-          "D": "four of days"
+          "D": "four days"
         },
         "ground_truth": "C",
         "time": "'2024-10-09 14:09' Wednesday"
@@ -171145,9 +171145,9 @@
           3
         ],
         "choices": {
-          "A": "three of month",
+          "A": "three months",
           "B": "two weeks (duplicate option B)",
-          "C": "five of days",
+          "C": "five days",
           "D": "two weeks"
         },
         "ground_truth": "D",
@@ -173367,7 +173367,7 @@
         "choices": {
           "A": "seven weeks",
           "B": "eight weeks",
-          "C": "seven of month",
+          "C": "seven months",
           "D": "six weeks"
         },
         "ground_truth": "A",
@@ -252046,9 +252046,9 @@
           14
         ],
         "choices": {
-          "A": "Sky Diving; five of months",
+          "A": "Sky Diving; five months",
           "B": "Bungee Jumping; four weeks",
-          "C": "Surfing; six of days",
+          "C": "Surfing; six days",
           "D": "Rock Climbing; five weeks"
         },
         "ground_truth": "D",
@@ -259699,9 +259699,9 @@
           13
         ],
         "choices": {
-          "A": "164cm; nine of month",
+          "A": "164cm; nine months",
           "B": "160cm; eight weeks",
-          "C": "165cm; ten of year",
+          "C": "165cm; ten years",
           "D": "163cm; nine weeks"
         },
         "ground_truth": "D",
@@ -285865,7 +285865,7 @@
           "A": "dylan.carter@goldengatebanktrust.net; three weeks",
           "B": "dylan.carter@goldengatebank.com; four weeks",
           "C": "dylan.carter@goldengatebanktrust.com; two weeks",
-          "D": "dylan.carter@goldengatebanktrust.org; one of month"
+          "D": "dylan.carter@goldengatebanktrust.org; one month"
         },
         "ground_truth": "C",
         "time": "'2024-10-19 19:50' Saturday"
@@ -316664,7 +316664,7 @@
         ],
         "choices": {
           "A": "The Oura Ring Gen 3 is a valuable tool for my busy lifestyle, offering sleek design, effective sleep tracking, and heart rate variability insights that enhance my health and performance. While the app could be more user-friendly and I’d like to see more fitness tracking options, I highly recommend it for anyone seeking to improve their wellness.; nine days",
-          "B": "The Oura Ring Gen 2 is a useful gadget for my hectic routine, with a stylish appearance, good sleep monitoring, and heart rate stats that contribute to my health and fitness. Although the app could use some improvements and I'd wish for additional activity tracking, I still endorse it for anyone wanting to boost their well-being.; eleven day",
+          "B": "The Oura Ring Gen 2 is a useful gadget for my hectic routine, with a stylish appearance, good sleep monitoring, and heart rate stats that contribute to my health and fitness. Although the app could use some improvements and I'd wish for additional activity tracking, I still endorse it for anyone wanting to boost their well-being.; eleven days",
           "C": "The Oura Ring Gen 4 is a great asset for my fast-paced life, featuring a modern design, impressive sleep analysis, and heart rate variability metrics that support my health and fitness goals. However, the app needs enhancement and I'm hoping for more activity tracking features, but I would still suggest it for those looking to enhance their wellness.; eight days",
           "D": "The Oura Ring Gen 1 is an excellent companion for my busy schedule, showcasing a sleek form factor, decent sleep tracking, and heart rate variability feedback that is beneficial for my health and productivity. The app is somewhat challenging to navigate, and I'm interested in more options for fitness tracking, but I recommend it for anyone interested in improving their overall health.; ten days"
         },

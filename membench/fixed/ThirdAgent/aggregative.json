@@ -1197,7 +1197,7 @@
         "choices": {
           "A": "2 people",
           "B": "10 people",
-          "C": "1 person",
+          "C": "1 person (duplicate option C)",
           "D": "1 person"
         },
         "ground_truth": "D",
@@ -37656,7 +37656,7 @@
         ],
         "choices": {
           "A": "2 people",
-          "B": "1 person",
+          "B": "1 person (duplicate option B)",
           "C": "3 people",
           "D": "1 person"
         },
@@ -138557,7 +138557,7 @@
         "choices": {
           "A": "2 people; 7 events",
           "B": "3 people; 6 events",
-          "C": "1 persons; 8 events",
+          "C": "1 person; 8 events",
           "D": "2 people; 5 events"
         },
         "ground_truth": "A",

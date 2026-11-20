@@ -707628,9 +707628,9 @@
           ]
         ],
         "choices": {
-          "A": "four of month",
+          "A": "four months",
           "B": "six weeks",
-          "C": "three of day",
+          "C": "three days",
           "D": "five weeks"
         },
         "ground_truth": "D",
@@ -719006,7 +719006,7 @@
         "choices": {
           "A": "three weeks",
           "B": "two weeks",
-          "C": "three weeks",
+          "C": "three weeks (duplicate option C)",
           "D": "four weeks"
         },
         "ground_truth": "A",
@@ -777783,7 +777783,7 @@
           "A": "seven weeks",
           "B": "nine weeks",
           "C": "eight weeks",
-          "D": "eight of days"
+          "D": "eight days"
         },
         "ground_truth": "C",
         "time": "'2024-10-04 08:12' Friday"
@@ -875426,7 +875426,7 @@
         "choices": {
           "A": "seven weeks",
           "B": "eight weeks",
-          "C": "seven of month",
+          "C": "seven months",
           "D": "six weeks"
         },
         "ground_truth": "A",
@@ -888698,7 +888698,7 @@
         "choices": {
           "A": "nine weeks",
           "B": "seven weeks",
-          "C": "eleven of week",
+          "C": "eleven weeks",
           "D": "ten weeks"
         },
         "ground_truth": "A",
@@ -902919,7 +902919,7 @@
           "A": "four weeks",
           "B": "six weeks",
           "C": "five weeks",
-          "D": "five of month"
+          "D": "five months"
         },
         "ground_truth": "C",
         "time": "'2024-10-04 08:21' Friday"
@@ -916191,7 +916191,7 @@
           "A": "one week",
           "B": "three weeks",
           "C": "two weeks",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-05 08:26' Saturday"
@@ -1022360,7 +1022360,7 @@
           "A": "seven weeks",
           "B": "nine weeks",
           "C": "eight weeks",
-          "D": "eight of months"
+          "D": "eight months"
         },
         "ground_truth": "C",
         "time": "'2024-10-06 08:09' Sunday"
@@ -1030891,7 +1030891,7 @@
         "choices": {
           "A": "five days",
           "B": "one week",
-          "C": "one week",
+          "C": "one week (duplicate option C)",
           "D": "four days"
         },
         "ground_truth": "B",
@@ -1099138,9 +1099138,9 @@
           ]
         ],
         "choices": {
-          "A": "eight of month",
+          "A": "eight months",
           "B": "ten weeks",
-          "C": "seven of month",
+          "C": "seven months",
           "D": "nine weeks"
         },
         "ground_truth": "D",

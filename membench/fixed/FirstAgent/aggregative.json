@@ -15833,7 +15833,7 @@
         "choices": {
           "A": "1 person",
           "B": "2 people",
-          "C": "1 person",
+          "C": "1 person (duplicate option C)",
           "D": "3 people"
         },
         "ground_truth": "A",
@@ -91683,7 +91683,7 @@
         ],
         "choices": {
           "A": "2 people",
-          "B": "1 person",
+          "B": "1 person (duplicate option B)",
           "C": "0 people",
           "D": "1 person"
         },
@@ -210061,7 +210061,7 @@
           "A": "0 people",
           "B": "12 people",
           "C": "1 person",
-          "D": "1 person"
+          "D": "1 person (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-01 10:44' Tuesday"
@@ -279586,7 +279586,7 @@
           "A": "1 person",
           "B": "0 people",
           "C": "12 people",
-          "D": "1 person"
+          "D": "1 person (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-01 10:44' Tuesday"
@@ -311195,7 +311195,7 @@
         "choices": {
           "A": "2 people",
           "B": "1 person",
-          "C": "1 person",
+          "C": "1 person (duplicate option C)",
           "D": "3 people"
         },
         "ground_truth": "B",
@@ -372234,7 +372234,7 @@
           ]
         ],
         "choices": {
-          "A": "1 person",
+          "A": "1 person (duplicate option A)",
           "B": "2 people",
           "C": "1 person",
           "D": "3 persons"
@@ -438062,7 +438062,7 @@
         "choices": {
           "A": "2 people",
           "B": "1 person",
-          "C": "1 person",
+          "C": "1 person (duplicate option C)",
           "D": "0 people"
         },
         "ground_truth": "B",
@@ -501393,7 +501393,7 @@
         ],
         "choices": {
           "A": "2 people",
-          "B": "1 person",
+          "B": "1 person (duplicate option B)",
           "C": "0 people",
           "D": "1 person"
         },
@@ -570967,7 +570967,7 @@
         ],
         "choices": {
           "A": "2 people",
-          "B": "1 person",
+          "B": "1 person (duplicate option B)",
           "C": "3 people",
           "D": "1 person"
         },

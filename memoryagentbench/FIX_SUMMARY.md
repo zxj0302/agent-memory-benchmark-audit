@@ -41,5 +41,5 @@
   * **`parse_output` Multiline & Prefix-Escape Fix**: Fixed `re.escape(answer_prefix)` with `re.DOTALL` so `Answer:\n<text>` no longer parses as empty string `""` and multiline outputs without `Answer:` are not silently truncated to line 1.
   * **`chunk_text_into_sentences` Empty First Chunk Bug**: Prevented emitting `""` as chunk 0 when the first sentence exceeds `chunk_size`.
 * **`longmem_qa_evaluate.py`**: Synchronized judge fixes from LongMemEval (removed `±1` temporal off-by-one leniency, tightened `knowledge-update` stale-fact handling, and replaced `'yes' in response.lower()` with `startswith('yes')`).
-* **`graph_rag.py`**: Fixed inverted token-limit slice `encoded[127000:]` (lines 552 & 604, which discarded the first 127K tokens and kept only the overflow tail!) to `encoded[:127000]`.
+* **`graph_rag.py`**: Fixed inverted token-limit slice `encoded[llm_length_limit:]` (`llm_length_limit = 127000`, lines 552 & 604, which discarded the first 127K tokens and kept only the overflow tail!) to `encoded[:llm_length_limit]`.
 * **`agent.py`**: Removed the broken `if self.input_length_limit <= self.context_max_length + 50000:` guard in `_query_long_context_agent` that bypassed `_truncate_context_if_needed(tokenizer)` on large-window configurations.

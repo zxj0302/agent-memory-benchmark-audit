@@ -805,7 +805,7 @@ You should just output YES or NO, without any other messages.""" % (observation,
         elif res == 'NO':
             return False
         else:
-            raise ValueError("Activation Self-ask Parse Error: %s") % res
+            raise ValueError("Activation Self-ask Parse Error: %s" % res)
 
     def __self_ask_require_summary__(self, observation, activation_summary, flash_memory):
         prompt = """
@@ -820,7 +820,7 @@ You should just output YES or NO, without any other messages.""" % (observation,
         elif res == 'NO':
             return False
         else:
-            raise ValueError("Summary Self-ask Parse Error: %s") % res
+            raise ValueError("Summary Self-ask Parse Error: %s" % res)
 
     def __get_recency_list__(self):
         return [self.recency_decay ** (self.current_time - rt) for rt in self.memory_stream['recency_time']]

@@ -619185,7 +619185,7 @@
         "choices": {
           "A": "eight days",
           "B": "ten days",
-          "C": "nine days",
+          "C": "nine days (duplicate option C)",
           "D": "nine days"
         },
         "ground_truth": "D",
@@ -639434,8 +639434,8 @@
         "choices": {
           "A": "three weeks",
           "B": "four weeks",
-          "C": "five of days",
-          "D": "four of months"
+          "C": "five days",
+          "D": "four months"
         },
         "ground_truth": "B",
         "time": "'2024-10-04 08:26' Friday"
@@ -648726,7 +648726,7 @@
           "A": "four weeks",
           "B": "three weeks",
           "C": "five weeks",
-          "D": "four weeks"
+          "D": "four weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-07 08:19' Monday"
@@ -667286,7 +667286,7 @@
         "choices": {
           "A": "nine days",
           "B": "seven days",
-          "C": "eleven day",
+          "C": "eleven days",
           "D": "ten days"
         },
         "ground_truth": "A",
@@ -687564,7 +687564,7 @@
           "A": "five weeks",
           "B": "four weeks",
           "C": "six weeks",
-          "D": "five weeks"
+          "D": "five weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-01 08:11' Tuesday"
@@ -701067,7 +701067,7 @@
         "choices": {
           "A": "two weeks",
           "B": "three weeks",
-          "C": "two weeks",
+          "C": "two weeks (duplicate option C)",
           "D": "one week"
         },
         "ground_truth": "A",
@@ -706973,7 +706973,7 @@
           ]
         ],
         "choices": {
-          "A": "seven weeks",
+          "A": "seven weeks (duplicate option A)",
           "B": "six weeks",
           "C": "seven weeks",
           "D": "eight weeks"
@@ -762727,7 +762727,7 @@
         ],
         "choices": {
           "A": "two weeks",
-          "B": "three weeks",
+          "B": "three weeks (duplicate option B)",
           "C": "four weeks",
           "D": "three weeks"
         },
@@ -783829,7 +783829,7 @@
           "A": "two weeks",
           "B": "three weeks",
           "C": "four weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "B",
         "time": "'2024-10-07 08:30' Monday"
@@ -839568,7 +839568,7 @@
           "A": "two weeks",
           "B": "one week",
           "C": "three weeks",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-04 08:10' Friday"
@@ -864887,7 +864887,7 @@
         "choices": {
           "A": "four weeks",
           "B": "three weeks",
-          "C": "three weeks",
+          "C": "three weeks (duplicate option C)",
           "D": "two weeks"
         },
         "ground_truth": "B",
@@ -886823,7 +886823,7 @@
         ],
         "choices": {
           "A": "two days",
-          "B": "three days",
+          "B": "three days (duplicate option B)",
           "C": "three days",
           "D": "four days"
         },
@@ -896101,7 +896101,7 @@
         "choices": {
           "A": "eight weeks",
           "B": "seven weeks",
-          "C": "seven of days",
+          "C": "seven days",
           "D": "six weeks"
         },
         "ground_truth": "B",
@@ -907074,7 +907074,7 @@
           "A": "three weeks",
           "B": "two weeks",
           "C": "one week",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "B",
         "time": "'2024-10-07 08:29' Monday"
@@ -1010919,7 +1010919,7 @@
         ],
         "choices": {
           "A": "seven weeks",
-          "B": "twelve of week",
+          "B": "twelve weeks",
           "C": "eight weeks",
           "D": "nine weeks"
         },
@@ -1017672,7 +1017672,7 @@
         "choices": {
           "A": "three weeks",
           "B": "two weeks",
-          "C": "two weeks",
+          "C": "two weeks (duplicate option C)",
           "D": "ten weeks"
         },
         "ground_truth": "B",

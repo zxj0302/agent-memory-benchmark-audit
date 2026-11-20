@@ -165,7 +165,7 @@ if __name__ == '__main__':
                 }
                 completion = chat_completions_with_backoff(metric_client, **kwargs)
                 eval_response = completion.choices[0].message.content.strip()
-                label = 'yes' in eval_response.lower()
+                label = eval_response.strip().lower().startswith('yes')
                 entry['autoeval_label'] = {
                     'model': metric_model,
                     'label': label

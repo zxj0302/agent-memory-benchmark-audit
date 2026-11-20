@@ -103459,7 +103459,7 @@
         "choices": {
           "A": "three weeks",
           "B": "five weeks",
-          "C": "four weeks",
+          "C": "four weeks (duplicate option C)",
           "D": "four weeks"
         },
         "ground_truth": "D",
@@ -112664,7 +112664,7 @@
           "A": "three weeks",
           "B": "two weeks",
           "C": "four weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-09 13:43' Wednesday"
@@ -113132,7 +113132,7 @@
           "A": "four weeks",
           "B": "five weeks",
           "C": "six weeks",
-          "D": "five weeks"
+          "D": "five weeks (duplicate option D)"
         },
         "ground_truth": "B",
         "time": "'2024-10-10 14:07' Thursday"
@@ -122960,7 +122960,7 @@
           "A": "four weeks",
           "B": "three weeks",
           "C": "two weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "B",
         "time": "'2024-10-11 02:04' Thursday"
@@ -144487,7 +144487,7 @@
         "choices": {
           "A": "two weeks",
           "B": "four weeks",
-          "C": "three of months",
+          "C": "three months",
           "D": "three weeks"
         },
         "ground_truth": "D",
@@ -149321,7 +149321,7 @@
           4
         ],
         "choices": {
-          "A": "six of month",
+          "A": "six months",
           "B": "five weeks",
           "C": "four weeks",
           "D": "three weeks"
@@ -156656,7 +156656,7 @@
           "A": "three weeks",
           "B": "five weeks",
           "C": "four weeks",
-          "D": "four weeks"
+          "D": "four weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-09 14:07' Wednesday"
@@ -159775,7 +159775,7 @@
         "choices": {
           "A": "four weeks",
           "B": "three weeks",
-          "C": "three of days",
+          "C": "three days",
           "D": "two weeks"
         },
         "ground_truth": "B",
@@ -176156,7 +176156,7 @@
           "A": "two weeks",
           "B": "four weeks",
           "C": "three weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-09 16:02' Wednesday"

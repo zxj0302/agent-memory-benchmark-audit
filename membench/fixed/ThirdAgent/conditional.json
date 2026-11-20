@@ -107902,7 +107902,7 @@
         ],
         "choices": {
           "A": "five days",
-          "B": "six days",
+          "B": "six days (duplicate option B)",
           "C": "seven days",
           "D": "six days"
         },
@@ -109471,7 +109471,7 @@
           5
         ],
         "choices": {
-          "A": "three of month",
+          "A": "three months",
           "B": "five weeks",
           "C": "four weeks",
           "D": "two weeks"
@@ -115596,7 +115596,7 @@
         "choices": {
           "A": "three weeks",
           "B": "four weeks",
-          "C": "three weeks",
+          "C": "three weeks (duplicate option C)",
           "D": "two weeks"
         },
         "ground_truth": "A",
@@ -125958,7 +125958,7 @@
         "choices": {
           "A": "two weeks",
           "B": "four weeks",
-          "C": "three of months",
+          "C": "three months",
           "D": "three weeks"
         },
         "ground_truth": "D",
@@ -131768,7 +131768,7 @@
           "A": "five weeks",
           "B": "three weeks",
           "C": "four weeks",
-          "D": "four weeks"
+          "D": "four weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-12 13:52' Saturday"
@@ -143229,7 +143229,7 @@
           "A": "two weeks",
           "B": "one week",
           "C": "three weeks",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "A",
         "time": "'2024-10-11 18:02' Friday"
@@ -143700,7 +143700,7 @@
           "A": "three weeks",
           "B": "five weeks",
           "C": "four weeks",
-          "D": "four weeks"
+          "D": "four weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-10 14:23' Thursday"
@@ -149038,7 +149038,7 @@
           "A": "two weeks",
           "B": "four weeks",
           "C": "three weeks",
-          "D": "three weeks"
+          "D": "three weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-10 14:55' Thursday"
@@ -168348,7 +168348,7 @@
         "choices": {
           "A": "three weeks",
           "B": "two weeks",
-          "C": "two weeks",
+          "C": "two weeks (duplicate option C)",
           "D": "one week"
         },
         "ground_truth": "B",
@@ -170861,7 +170861,7 @@
           "A": "seven weeks",
           "B": "eight weeks",
           "C": "nine weeks",
-          "D": "eight of days"
+          "D": "eight days"
         },
         "ground_truth": "B",
         "time": "'2024-10-10 15:56' Thursday"
@@ -173059,7 +173059,7 @@
           "A": "four weeks",
           "B": "six weeks",
           "C": "five weeks",
-          "D": "five weeks"
+          "D": "five weeks (duplicate option D)"
         },
         "ground_truth": "C",
         "time": "'2024-10-10 22:58' Thursday"
@@ -174786,7 +174786,7 @@
           "A": "one week",
           "B": "two weeks",
           "C": "three weeks",
-          "D": "two weeks"
+          "D": "two weeks (duplicate option D)"
         },
         "ground_truth": "B",
         "time": "'2024-10-09 14:29' Wednesday"
@@ -240488,7 +240488,7 @@
         "choices": {
           "A": "Tag Heuer Carrera; ten weeks",
           "B": "Tag Heuer Aquaracer; eight weeks",
-          "C": "Tag Heuer Monaco 202; eleven of week",
+          "C": "Tag Heuer Monaco 202; eleven weeks",
           "D": "Tag Heuer Monaco; nine weeks"
         },
         "ground_truth": "D",
@@ -257571,7 +257571,7 @@
         ],
         "choices": {
           "A": "T3 Cure Luxe; seven days",
-          "B": "T5 Cura Luxe; eleven day",
+          "B": "T5 Cura Luxe; eleven days",
           "C": "T3 Cura Luxe; nine days",
           "D": "T3 Curly Luxe; eight days"
         },
@@ -300563,7 +300563,7 @@
       "QA": {
         "qid": 0,
         "question": "When does the person who works in Atlanta, GA celebrate their birthday?also, What is the duration of the Culinary Hub activity that I am going to attend?",
-        "answer": "07/05; seven of month",
+        "answer": "07/05; seven months",
         "target_step_id": [
           9,
           8,
@@ -300571,10 +300571,10 @@
           22
         ],
         "choices": {
-          "A": "07/05; seven of month",
-          "B": "06/05; six of month",
-          "C": "07/06; eight of month",
-          "D": "08/05; seven of month"
+          "A": "07/05; seven months",
+          "B": "06/05; six months",
+          "C": "07/06; eight months",
+          "D": "08/05; seven months"
         },
         "ground_truth": "A",
         "time": "'2024-10-19 23:49' Saturday"
@@ -349928,7 +349928,7 @@
         "choices": {
           "A": "North Face Surge; two weeks",
           "B": "North Face Recon; one week",
-          "C": "North Face Recon 35; one of month",
+          "C": "North Face Recon 35; one month",
           "D": "North Face Resolve; three weeks"
         },
         "ground_truth": "B",

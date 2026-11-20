@@ -549,7 +549,7 @@ class QueryEngine:
             if len(tokenzier.encode(expanded_context)) > llm_length_limit:
                 print("\n\n\n(545) The context is too long, we need to truncate it.\n\n\n")
                 encoded = tokenzier.encode(expanded_context)
-                expanded_context = tokenzier.decode(encoded[llm_length_limit:])
+                expanded_context = tokenzier.decode(encoded[:llm_length_limit])
             ###
             input_data = {"query": query, "context": expanded_context}   
             final_answer = response_chain.invoke(input_data)
@@ -601,7 +601,7 @@ class QueryEngine:
                 if len(tokenzier.encode(expanded_context)) > llm_length_limit:
                     print("\n\n\n(592) The context is too long, we need to truncate it.\n\n\n")
                     encoded = tokenzier.encode(expanded_context)
-                    expanded_context = tokenzier.decode(encoded[llm_length_limit:])
+                    expanded_context = tokenzier.decode(encoded[:llm_length_limit])
                 ###
                 input_data = {"query": query, "context": expanded_context}
                 response = response_chain.invoke(input_data)
